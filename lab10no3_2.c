@@ -25,3 +25,5 @@ void DisplayData(struct Books *CBook){
     printf("Book ID : %d \n",(*CBook).BookID);
     printf("Book Title : %s \n",CBook->BookTitle);
 }
+//*(CBook).BookID คือ การเข้าถึงค่า BookID ของ struct ผ่านตัวชี้ CBook
+//CBook->BookTitle คือ การเข้าถึงค่า BookTitle ของ struct ผ่านตัวชี้ CBook (เขียนแบบย่อของ (*CBook).BookTitle)
